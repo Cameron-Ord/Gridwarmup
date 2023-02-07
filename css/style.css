@@ -1,0 +1,46 @@
+
+
+#page_header{
+    min-height: 10vh;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+justify-items: start;
+align-items: center;
+}
+
+#navheader{
+min-height: 10vh;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+justify-self: end;
+align-self: center;
+
+}
+
+#page_main{
+
+    min-height: 80vh;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+justify-items: center;
+align-items: center;
+}
+
+.section{
+min-height: 80vh;
+
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+justify-items: center;
+align-items: center;
+}
+
+#page_footer{
+
+
+}
+
+img{
+height: 20vh;
+width: 30vh;
+}
